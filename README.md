@@ -196,5 +196,11 @@ Notice the `VR` button at the bottom right of the page. If you navigate to this 
 
 We can do the same in a HoloLens2 where your model will be combined with the real-world.
 
+You can try the one I made [here](https://peted70.github.io/HoloLensWorkshop/)
+
+And here it is running on a HoloLens2:
+
+
+
 ## Further Learning Resources
 
