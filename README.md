@@ -198,9 +198,11 @@ We can do the same in a HoloLens2 where your model will be combined with the rea
 
 You can try the one I made [here](https://peted70.github.io/HoloLensWorkshop/)
 
+> You can use your mouse and arrow keys to navigate around the 3D model if you open this on a desktop or your finger if you are using a mobile phone.
+
 And here it is running on a HoloLens2:
 
-
+![HL2](./.content/HL2workshop.gif)
 
 ## Further Learning Resources
 
