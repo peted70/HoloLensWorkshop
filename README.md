@@ -2,7 +2,7 @@
 
 (Required time: 60 mins)
 
-## Pre-requistes
+## Pre-requisites
 
 - A github account which is free to create (see details [here](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account))
 
@@ -186,7 +186,15 @@ And then commit the changes...
 
 ![commit](./.content/commit.png)
 
-Wait for a while ☕ :coffee:
+Wait for a while ☕☕☕☕☕
+
+Then reload the page...
+
+![final page](./.content/final-page.png)
+
+Notice the `VR` button at the bottom right of the page. If you navigate to this page from within a VR headset then activate the VR button you will enter a fully 3d, immersive experience viewing your 3D model.
+
+We can do the same in a HoloLens2 where your model will be combined with the real-world.
 
 ## Further Learning Resources
 
