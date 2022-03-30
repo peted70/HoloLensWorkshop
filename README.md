@@ -1,6 +1,6 @@
-# HoloLens Workshop
+# HoloLens Workshop 😀
 
-(Required time: 60 mins)
+(🕙Required time: 60 mins)
 
 ## Pre-requisites
 
@@ -25,6 +25,8 @@ Let's get started...
 We will need to carry out three distinct tasks:
 
 Create or find A 3D model, create an html page which loads the 3D model and a Github page to host our web page.
+
+![boom box](./.content/boombox.jpg)
 
 First create a folder on your computer where we will save all of the files; we will refer to that folder as the `working folder`.
 
