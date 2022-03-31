@@ -34,7 +34,9 @@ First create a folder on your computer (this can be named whatever you like) whe
 
 We need a simple (non-animated) 3D model in the .glb file format before we continue. Here are some possible sources:
 
-- create one using Paint3D
+- create one using Paint3D (Save as .glb) (Windows Only)
+
+![paint3d](./.content/paint3d.png)
 
 - download one from [this Github repo](https://github.com/peted70/HoloLensWorkshop/tree/main/3d-models). To download:
 
