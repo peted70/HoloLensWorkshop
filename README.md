@@ -28,7 +28,7 @@ Create or find A 3D model, create an html page which loads the 3D model and a Gi
 
 ![boom box](./.content/boombox.jpg)
 
-First create a folder on your computer where we will save all of the files; we will refer to that folder as the `working folder`.
+First create a folder on your computer (this can be named whatever you like) where we will save all of the files; we will refer to that folder as the `working folder`.
 
 ## 3D Model
 
@@ -36,7 +36,13 @@ We need a simple (non-animated) 3D model in the .glb file format before we conti
 
 - create one using Paint3D
 
-- download one from [this Github repo](https://github.com/peted70/HoloLensWorkshop/tree/main/3d-models) 
+- download one from [this Github repo](https://github.com/peted70/HoloLensWorkshop/tree/main/3d-models). To download:
+
+![model link](./.content/model-link.png)
+
+and then:
+
+![download model](./.content/download-model.png)
 
 - find one on the web there are lots of sites that include free 3D models; e.g. https://sketchfab.com/
 
