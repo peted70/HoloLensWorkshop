@@ -6,33 +6,37 @@
 
 There are a few steps that you'll need to complete before the workshop starts: 
 
-- [Create a free GitHub account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account), if you don't have one already. GitHub is a code hosting platform that lets you and others work together on projects from anywhere.
+- [Create a free **GitHub** account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account), if you don't have one already. GitHub is a code hosting platform that lets you and others work together on projects from anywhere.
 
-- Download [Visual Studio Code](https://code.visualstudio.com/download). Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux.
+- [Download **Visual Studio Code**](https://code.visualstudio.com/download). Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux.
 
-- Make sure that you are connected to the internet during the workshop
+- Make sure that you are connected to the internet during the workshop.
 
 > Note: If you can't install Visual Studio Code, the workshop can still be completed using a standard text editor.
 
 ## Introduction
 
-In this workshop we will create a simple, immersive and interactive 3D experience that we can then use with a browser, mobile phone, virtual reality headset or even a  HoloLens 2 mixed reality headset! We will be using standard web technologies (html/javascript/css) but it is not necessary to have any prior experience with these. There is a new standard called [WebXR](https://www.w3.org/TR/webxr/) which allows immersive, interactive 3D experiences to be created on the web but consumed on different devices. The devices could be a HoloLens, a Virtual Reality headset or could be your mobile phone.
+In this workshop we will create a simple, immersive and interactive 3D experience which we can view with a browser, mobile phone, virtual reality headset or even a  [HoloLens 2](https://www.microsoft.com/en-gb/hololens/) mixed reality headset! 
 
-### WebGL
+We will be using standard web technologies such as **HTML**, **JavaScript** and **CSS**. We will learn how to use a new standard called **[WebXR](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/javascript/webxr-overview)** which allows immersive, interactive 3D experiences to be created on the web and consumed on different devices.
 
-Whilst we are using html the technology that allows us to create 3D on the web is actually WebGL. There are a number of frameworks that we can use to make writing a WebGL app easier those include [Babylon.js](https://doc.babylonjs.com/) and [A-Frame](https://aframe.io/).
+The technology that allows us to create 3D on the web is called **WebGL** (Web Graphics Library). There are a number of frameworks that we can use to make writing a WebGL app easier, such as **[Babylon.js](https://doc.babylonjs.com/)** and **[A-Frame](https://aframe.io/)**.
 
-Let's get started...
-
-We will need to carry out three distinct tasks:
-
-Create or find A 3D model, create an html page which loads the 3D model and a Github page to host our web page.
+**Don't worry** - you do not need to have any previous experience with these technologies to complete the workshop! Each step is explained below and we will step through them during the workshop.
 
 ![boom box](./.content/boombox.jpg)
 
-First create a folder on your computer (this can be named whatever you like) where we will save all of the files; we will refer to that folder as the `working folder`.
+To create our 3D experience, we will need to complete three tasks:
 
-## 3D Model
+1. Get a 3D model
+2. Create a web page to display the 3D model
+3. Set up a GitHub page to host our web page
+
+**Let's get started...**
+
+**First**: create a new folder somewhere on your computer to store your workshop files. You can call the folder whatever you like. For example, `C:\HLWorkshop`. We will refer to that folder as the `working folder`.
+
+## 1. Get a 3D model
 
 We need a simple (non-animated) 3D model in the .glb file format before we continue. Here are some possible sources:
 
