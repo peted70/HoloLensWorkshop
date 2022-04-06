@@ -4,17 +4,19 @@
 
 ## Pre-requisites
 
-- A github account which is free to create (see details [here](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account))
+There are a few steps that you'll need to complete before the workshop starts: 
 
-- [Visual Studio Code](https://code.visualstudio.com/download) Windows/Linux/Mac
+- [Create a free GitHub account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account), if you don't have one already. GitHub is a code hosting platform that lets you and others work together on projects from anywhere.
 
-- An internet connection
+- Download [Visual Studio Code](https://code.visualstudio.com/download). Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux.
 
-> Note. If you can't install Visual Studio Code the workshop can still be completed using the standard text editor that is included with your operating system.
+- Make sure that you are connected to the internet during the workshop
+
+> Note: If you can't install Visual Studio Code, the workshop can still be completed using a standard text editor.
 
 ## Introduction
 
-We will run through the simplest possible example of how to create an immersive experience that runs on HoloLens2. We will be using standard web technologies (html/javascript/css) but it is not necessary to have any prior experience with these. There is a new standard called [WebXR](https://www.w3.org/TR/webxr/) which allows immersive, interactive 3D experiences to be created on the web but consumed on different devices. The devices could be a HoloLens, a Virtual Reality headset or could be your mobile phone.
+In this workshop we will create a simple, immersive and interactive 3D experience that we can then use with a browser, mobile phone, virtual reality headset or even a  HoloLens 2 mixed reality headset! We will be using standard web technologies (html/javascript/css) but it is not necessary to have any prior experience with these. There is a new standard called [WebXR](https://www.w3.org/TR/webxr/) which allows immersive, interactive 3D experiences to be created on the web but consumed on different devices. The devices could be a HoloLens, a Virtual Reality headset or could be your mobile phone.
 
 ### WebGL
 
