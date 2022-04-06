@@ -30,33 +30,40 @@ To create our 3D experience, we will need to complete three tasks:
 
 1. Get a 3D model
 2. Create a web page to display the 3D model
-3. Set up a GitHub page to host our web page
+3. Publish content via GitHub
 
 **Let's get started...**
 
 **First**: create a new folder somewhere on your computer to store your workshop files. You can call the folder whatever you like. For example, `C:\HLWorkshop`. We will refer to that folder as the `working folder`.
 
-## 1. Get a 3D model
+## Task 1: Get a 3D model
 
-We need a simple (non-animated) 3D model in the .glb file format before we continue. Here are some possible sources:
+Your 3D experience needs something to experience in 3D! You will need a (non-animated) 3D model, which needs to be in the .glb file format. 
 
-- create one using Paint3D (Save as .glb) (Windows Only)
+You can choose **either** to create your own 3D model, **or** download an existing model.
+
+**If you want to try creating your own 3D model**, it's easy using an app like [Paint 3D](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) (on Windows):
+- Open Paint 3D
+- Click **New**
+- Click on the **3D library** tab, and find a 3D model that you like from the gallery (see the picture below).
+- Once you've got a 3D model in Paint 3D, try customizing it by applying some fun **[Stickers](https://support.microsoft.com/en-gb/windows/use-stickers-in-paint-3d-53dd7adf-c332-c7b8-9693-b214c10d0a6f)** using the Stickers tab!
+- When you're happy with your masterpiece, make sure to save it into your `working folder` as a .glb file: click **Menu | Save as | 3D model | Save as type: .glb**
 
 ![paint3d](./.content/paint3d.png)
 
-- download one from [this Github repo](https://github.com/peted70/HoloLensWorkshop/tree/main/3d-models). To download:
+**Alternatively, you can download a 3D model** from [this Github repo](https://github.com/peted70/HoloLensWorkshop/tree/main/3d-models). To download, first click on one of the models:
 
 ![model link](./.content/model-link.png)
 
-and then:
+and then click on the **Download** button on the right of the page:
 
 ![download model](./.content/download-model.png)
 
-- find one on the web there are lots of sites that include free 3D models; e.g. https://sketchfab.com/
+> Tip: There are also lots of other sites on the web that offer 3D models for free - for example: https://sketchfab.com/
 
-Copy the .glb file into your `working folder`.
+Make sure that you save your 3D model (.glb file) into your `working folder`. (If you're not sure where it downloaded to, check your **Downloads** folder)
 
-## HTML Page
+## Task 2: Create a web page to display the 3D model
 
 Open Visual Studio Code in a new folder on your computer
 
@@ -139,7 +146,7 @@ Your `index.html` file should now look like this:
 </html>
 ```
 
-## Github Page
+## Task 3: Publish content via Github
 
 First we need to create a new repository on Github and copy the index.html and model.glb file to it.
 
