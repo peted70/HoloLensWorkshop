@@ -18,11 +18,11 @@ There are a few steps that you'll need to complete before the workshop starts:
 
 In this workshop we will create a simple, immersive and interactive 3D experience which we can view with a browser, mobile phone, virtual reality headset or even a  [HoloLens 2](https://www.microsoft.com/en-gb/hololens/) mixed reality headset! 
 
-We will be using standard web technologies such as **HTML**, **JavaScript** and **CSS**. We will learn how to use a new standard called **[WebXR](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/javascript/webxr-overview)** which allows immersive, interactive 3D experiences to be created on the web and consumed on different devices.
+![Person wearing a HoloLens 2 headset](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWGGUE)
 
-The technology that allows us to create 3D on the web is called **WebGL** (Web Graphics Library). There are a number of frameworks that we can use to make writing a WebGL app easier, such as **[Babylon.js](https://doc.babylonjs.com/)** and **[A-Frame](https://aframe.io/)**.
+We will be using standard web technologies such as **HTML**, **JavaScript** and **CSS**. We will see how to use a new standard called **[WebXR](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/javascript/webxr-overview)** which allows 3D experiences to be created on the web and then used on different devices. The 3D graphics can be viewed within any compatible web browser without the use of plug-ins, thanks to **WebGL** (Web Graphics Library). There are a number of frameworks that we can use to make writing a WebGL app easier, such as **[Babylon.js](https://doc.babylonjs.com/)** and **[A-Frame](https://aframe.io/)**.
 
-**Don't worry** - you do not need to have any previous experience with these technologies to complete the workshop! Each step is explained below and we will step through them during the workshop.
+**Don't worry** - you do not need to have any previous experience with these technologies to complete the workshop! It is easy to follow - each step is explained below and we will walk through them during the workshop.
 
 ![boom box](./.content/boombox.jpg)
 
@@ -38,16 +38,16 @@ To create our 3D experience, we will need to complete three tasks:
 
 ## Task 1: Get a 3D model
 
-Your 3D experience needs something to experience in 3D! You will need a (non-animated) 3D model, which needs to be in the .glb file format. 
+Your 3D experience needs something you can experience in 3D! Our first task is to get a simple (non-animated) 3D model, which needs to be in the .glb file format. 
 
 You can choose **either** to create your own 3D model, **or** download an existing model.
 
 **If you want to try creating your own 3D model**, it's easy using an app like [Paint 3D](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) (on Windows):
-- Open Paint 3D
-- Click **New**
-- Click on the **3D library** tab, and find a 3D model that you like from the gallery (see the picture below).
-- Once you've got a 3D model in Paint 3D, try customizing it by applying some fun **[Stickers](https://support.microsoft.com/en-gb/windows/use-stickers-in-paint-3d-53dd7adf-c332-c7b8-9693-b214c10d0a6f)** using the Stickers tab!
-- When you're happy with your masterpiece, make sure to save it into your `working folder` as a .glb file: click **Menu | Save as | 3D model | Save as type: .glb**
+1. Open Paint 3D (it might already be on your Windows start menu, or you can [install it](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab))
+2. In Paint 3D, click **New**
+3. Click on the **3D library** tab, and find a 3D model that you like from the gallery (see the picture below).
+4. _Optional:_ Once you've got a 3D model in Paint 3D, try customizing it by applying some fun **[Stickers](https://support.microsoft.com/en-gb/windows/use-stickers-in-paint-3d-53dd7adf-c332-c7b8-9693-b214c10d0a6f)** using the Stickers tab!
+5. When you're happy with your masterpiece, make sure to save it into your `working folder` as a .glb file: click **Menu | Save as | 3D model | Save as type: .glb**
 
 ![paint3d](./.content/paint3d.png)
 
