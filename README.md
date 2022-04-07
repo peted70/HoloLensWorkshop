@@ -247,7 +247,9 @@ And here it is running in mixed reality on a HoloLens 2:
 
 ![HL2](./.content/HL2workshop.gif "Here's how my 3D experience looks in mixed reality on a HoloLens 2")
     
-Well done if you made it to the end! Now that you've got started with mixed reality development, why not see what else you could build? We'll see you in the Metaverse! 😎
+Well done if you made it to the end! Try viewing your link on your smartphone - you could even share the link with your friends so they can see your 3D creation! 
+    
+Now that you've got started with mixed reality development, why not see what else you could build? We'll see you in the Metaverse! 😎
 
 ## Further Learning Resources
 
