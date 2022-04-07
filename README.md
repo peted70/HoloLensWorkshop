@@ -18,13 +18,13 @@ There are a few steps that you'll need to complete before the workshop starts:
 
 In this workshop we will create a simple, immersive and interactive 3D experience which we can view with a browser, mobile phone, virtual reality headset or even a  [HoloLens 2](https://www.microsoft.com/en-gb/hololens/) mixed reality headset! 
 
-![Person wearing a HoloLens 2 headset](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWGGUE)
+![Person wearing a HoloLens 2 headset](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWGGUE "Person wearing a HoloLens 2 headset")
 
 We will be using standard web technologies such as **HTML**, **JavaScript** and **CSS**. We will see how to use a new standard called **[WebXR](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/javascript/webxr-overview)** which allows 3D experiences to be created on the web and then used on different devices. The 3D graphics can be viewed within any compatible web browser without the use of plug-ins, thanks to **WebGL** (Web Graphics Library). There are a number of frameworks that we can use to make writing a WebGL app easier, such as **[Babylon.js](https://doc.babylonjs.com/)** and **[A-Frame](https://aframe.io/)**.
 
 **Don't worry** - you do not need to have any previous experience with these technologies to complete the workshop! It is easy to follow - each step is explained below and we will walk through them during the workshop.
 
-![boom box](./.content/boombox.jpg)
+![boom box](./.content/boombox.jpg "An example 3D model")
 
 To create our 3D experience, we will need to complete three tasks:
 
@@ -49,15 +49,15 @@ You can choose **either** to create your own 3D model, **or** download an existi
 4. _Optional:_ Once you've got a 3D model in Paint 3D, try customizing it by applying some fun **[Stickers](https://support.microsoft.com/en-gb/windows/use-stickers-in-paint-3d-53dd7adf-c332-c7b8-9693-b214c10d0a6f)** using the Stickers tab!
 5. When you're happy with your masterpiece, make sure to save it into your `working folder` as a .glb file: click **Menu | Save as | 3D model | Save as type: .glb**
 
-![paint3d](./.content/paint3d.png)
+![paint3d](./.content/paint3d.png "Find a 3D model using the 3D Library in Paint 3D")
 
 **Alternatively, you can download a 3D model** from [this Github repo](https://github.com/peted70/HoloLensWorkshop/tree/main/3d-models). To download, first click on one of the models:
 
-![model link](./.content/model-link.png)
+![model link](./.content/model-link.png "Click on one of the 3D model links...")
 
 and then click on the **Download** button on the right of the page:
 
-![download model](./.content/download-model.png)
+![download model](./.content/download-model.png "... then click the Download button")
 
 > Tip: There are also lots of other sites on the web that offer 3D models for free - for example: https://sketchfab.com/
 
@@ -65,21 +65,28 @@ Make sure that you save your 3D model (.glb file) into your `working folder`. (I
 
 ## Task 2: Create a web page to display the 3D model
 
-Open Visual Studio Code in a new folder on your computer
+Now that we have a 3D model, we need to create a web page that will display it. 
 
-![vscode open file](./.content/vscode-newfile.png)
+1. Open **Visual Studio Code**. 
+2. Using the toolbar at the top of Visual Studio Code, click **File | Open Folder**.
+3. Find and select the `working folder` that you created earlier.
+4. If you see a prompt saying "Do you trust the authors of the files in this folder?", select **Yes, I trust the authors**
+5. You should now see the **Explorer** pane open, and it should display the name of your `working folder`. (If you do not see the Explorer pane, click **View | Explorer** and it should appear)
+6. Hover over your folder name in the Explorer pane, and some icons should appear - click on the first icon, **New File** to create a new file in your folder (as shown in the screenshot below):
 
-name it `index.html`
+![vscode open file](./.content/vscode-newfile.png "Click on the New File icon")
 
-From within the file content type `doc` and hit the `Tab` key on your keyoboard and the contents of an html page should be created.
+7. Give your new file the name `index.html`
 
-![emmett](./.content/emmett.png)
+8. In the code editing window for your new file, type `doc` and hit the `Tab` key on your keyboard - and the contents of an HTML page should be auto-created!
+
+![emmett](./.content/emmett.png "Type 'doc' and then press the Tab key on your keyboard...")
 
 Resulting in:
 
-![html](./.content/html.pnh.png)
+![html](./.content/html.pnh.png "You just created a web page!")
 
-> If this doesn't work in your environment then copy the code below into the index.html file and save it.
+> If this doesn't work in your environment then copy/paste the code below into the index.html file and save it.
 
 ```html
 <html lang="en">
@@ -95,15 +102,15 @@ Resulting in:
 </html>
 ```
 
-Change the text `Document` to a name of your choosing.
+9. In the code, find the <title> element, and change the text that says `Document` to a name of your choosing. This will be the title displayed in your web browser when you view the web page later.
 
-Add a script tag for the `A-Frame` library into the head section of your html page:
+10. Copy and paste the script tag shown below, into the head section of your HTML page - e.g. put it on the line below the <title> element but before the closing head tag. This script tag will load the `A-Frame` library so that we can use it from our web page.
 
 ```html
 <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
 ```
 
-and copy the following html and place in the `body` section of you index.html page:
+11. Copy and paste the following code and place it in the `body` section of your index.html page (e.g. between the opening and closing body tags):
 
 ```html
 <a-scene background="#00000000">
@@ -117,10 +124,13 @@ and copy the following html and place in the `body` section of you index.html pa
         </a-camera>
 </a-scene>
 ```
+> This code uses the A-Frame library to display a 3D model, based on the WebXR standard and powered by WebGL! 😎
 
-Being careful to change `my-model-name.glb` for the filename of your 3D model.
-
-Your `index.html` file should now look like this:
+12. In your code, replace `my-model-name.glb` for the filename of your 3D model.
+    
+13. Make sure to save your changes! Click **File | Save**
+    
+Your `index.html` file should now look something like this:
 
 ```html
 <html lang="en">
@@ -146,6 +156,7 @@ Your `index.html` file should now look like this:
 </html>
 ```
 
+    
 ## Task 3: Publish content via Github
 
 First we need to create a new repository on Github and copy the index.html and model.glb file to it.
