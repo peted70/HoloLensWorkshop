@@ -18,7 +18,7 @@ There are a few steps that you'll need to complete before the workshop starts:
 
 In this workshop we will create a simple, immersive and interactive 3D experience which we can view with a browser, mobile phone, virtual reality headset or even a  [HoloLens 2](https://www.microsoft.com/en-gb/hololens/) mixed reality headset! 
 
-![Person wearing a HoloLens 2 headset](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWGGUE "Person wearing a HoloLens 2 headset")
+![A person wearing a HoloLens 2 headset](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWGGUE "A person wearing a HoloLens 2 headset")
 
 We will be using standard web technologies such as **HTML**, **JavaScript** and **CSS**. We will see how to use a new standard called **[WebXR](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/javascript/webxr-overview)** which allows 3D experiences to be created on the web and then used on different devices. The 3D graphics can be viewed within any compatible web browser without the use of plug-ins, thanks to **WebGL** (Web Graphics Library). There are a number of frameworks that we can use to make writing a WebGL app easier, such as **[Babylon.js](https://doc.babylonjs.com/)** and **[A-Frame](https://aframe.io/)**.
 
@@ -51,9 +51,9 @@ You can choose **either** to create your own 3D model, **or** download an existi
 
 ![paint3d](./.content/paint3d.png "Find a 3D model using the 3D Library in Paint 3D")
 
-**Alternatively, you can download a 3D model** from [this Github repo](https://github.com/peted70/HoloLensWorkshop/tree/main/3d-models). To download, first click on one of the models:
+**Alternatively, you can download a 3D model** from [this GitHub repo](https://github.com/peted70/HoloLensWorkshop/tree/main/3d-models). To download, go to the link, then click on one of the models as shown in the screenshot below:
 
-![model link](./.content/model-link.png "Click on one of the 3D model links...")
+![model link](./.content/model-link.png "[Screenshot]: Click on one of the 3D model links...")
 
 and then click on the **Download** button on the right of the page:
 
@@ -104,7 +104,7 @@ Resulting in:
 
 9. In the code, find the <title> element, and change the text that says `Document` to a name of your choosing. This will be the title displayed in your web browser when you view the web page later.
 
-10. Copy and paste the script tag shown below, into the head section of your HTML page - e.g. put it on the line below the <title> element but before the closing head tag. This script tag will load the `A-Frame` library so that we can use it from our web page.
+10. Copy and paste the script tag shown below, into the head section of your HTML page - e.g. put it on the line below the <title> element but before the closing head tag. This script tag will load the `A-Frame` library when the web page is viewed, so that we can use A-Frame references from the rest of our HTML code.
 
 ```html
 <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
@@ -157,86 +157,97 @@ Your `index.html` file should now look something like this:
 ```
 
     
-## Task 3: Publish content via Github
+## Task 3: Publish content via GitHub
 
-First we need to create a new repository on Github and copy the index.html and model.glb file to it.
+Now that you've created a web page, you need to publish it so that you can use it from any device. We'll use GitHub to publish it.
+    
+To do this, first you need to create a new repository on GitHub, then copy your index.html file and your 3D model .glb file to the repository.
 
-To create a repository:
+1. Open a web browser, and go to https://github.com
+2. Make sure that you are signed in using your GitHub account. 
+3. Click on your profile image at the top right to show the menu, then select **Your repositories**
+4. On the Repositories page, click the **New** button near the right of the page (shown below):
 
-![github repo](./.content/new-repo.png)
+![github repo](./.content/new-repo.png "Click the New button to create a new GitHub repository")
 
-then,
+5. Type in a name for your new Repository, then click the **Create repository** button.
 
-![create repo](./.content/create-repo.png)
+![create repo](./.content/create-repo.png "Type in a repository name, then click Create repository")
 
-then,
+6. Click **uploading an existing file**
 
-![upload repo](./.content/upload-repo.png)
+![upload repo](./.content/upload-repo.png "Click 'uploading an existing file'")
 
-then drag and drop your files...
+7. Drag and drop your `index.html` and .glb files from your local `working folder`...
 
-![drag files](./.content/drag-files.png)
+![drag files](./.content/drag-files.png "Drag and drop your files")
 
-Commit the changes...
+8. Commit the changes...
 
-![commit changes](./.content/commit-changes.png)
+![commit changes](./.content/commit-changes.png "Click 'Commit changes'")
 
 Your repo should now look like this:
 
-![repo](./.content/repo.png)
+![repo](./.content/repo.png "Here's how your GitHub repo should look")
 
 
-Now we will use Guthub Pages to host the html page.
+Now we will set up **GitHub Pages** to host the HTML page.
 
-Go to the settings page:
+9. Click on the **Settings** tab to go to the settings page:
 
-![settings](./.content/settings.png)
+![settings](./.content/settings.png "Click on the 'Settings' tab")
 
-Then the Pages page:
+10. On the left menu, click on **Pages**:
 
-![pages](./.content/pages.png)
+![pages](./.content/pages.png "Click 'Pages'")
 
-Now set your main branch as the source for your page and Save:
+11. Under **Source**, set your **main** branch as the source for your page and then press **Save**:
 
-![main](./.content/main.png)
+![main](./.content/main.png "Select the main branch, then press Save")
 
 You will then see a page link like the following:
 
-![page link](./.content/page-link.png)
+![page link](./.content/page-link.png "You'll find a link to your web page - but, wait till it says 'Your site is published'")
 
-Clicking on the link will open the index.html page in your browser:
+It may take a few minutes to publish your page. When it's ready, the message should change from 'Your site is ready to be published', to 'Your site is published'. (You may need to refresh your browser to see the message change)
+    
+12. Click on the link to open the index.html page in your browser:
 
-![github page](./.content/github-page.png)
+![github page](./.content/github-page.png "The model is shown - but it might be at the wrong scale!")
 
-But notice that in my case the model is being rendered very small but we can fix this by editing the html and changing the scale value for the model:
+> You can try moving the model around using the mouse (click and drag), and zooming in/out using the arrow keys on the keyboard.
+    
+You might find that the model is shown at the wrong scale - in my case the model is being rendered very small but we can fix this by editing the index.html and changing the `scale` value for the model. Now that you've uploaded your index.html file to GitHub, you can edit it in the browser - in your GitHub repository, go to the **Code** tab, click on the index.html file, and then click **Edit this file** (the pencil icon on the right side) to go into edit mode:
 
-![edit html](./.content/edit-html.png)
+![edit html](./.content/edit-html.png "Editing the html file in GitHub in a web browser")
 
-Change the values.
+13. If needed - change the `scale` values. The three numbers represent the scaling factors for the X, Y and Z axes. e.g. a scaling factor of "0.5 1 1" would shrink the model in half along the X direction, and maintain the original scale along the Y and Z directions.
 
-![change scale](./.content/scale-model.png)
+![change scale](./.content/scale-model.png "Change the scale values if needed")
 
-And then commit the changes...
+14. If you made changes, remember to click **commit changes**
 
-![commit](./.content/commit.png)
+![commit](./.content/commit.png "Commit changes")
 
-Wait for a while ☕☕☕☕☕
+Wait for a while ☕☕☕☕☕  (it can sometimes take a few minutes for the changes to be published!)
 
 Then reload the page...
 
-![final page](./.content/final-page.png)
+![final page](./.content/final-page.png "Our 3D experience has been published - and can be viewed in VR!")
 
-Notice the `VR` button at the bottom right of the page. If you navigate to this page from within a VR headset then activate the VR button you will enter a fully 3d, immersive experience viewing your 3D model.
+Notice the `VR` button at the bottom right of the page. If you navigate to this page from within a VR headset, then activate the VR button, you will enter a fully 3D, immersive experience viewing your 3D model.
 
-We can do the same in a HoloLens2 where your model will be combined with the real-world.
+We can do the same in a HoloLens 2 where your model will be combined with the real world.
 
 You can try the one I made [here](https://peted70.github.io/HoloLensWorkshop/)
 
 > You can use your mouse and arrow keys to navigate around the 3D model if you open this on a desktop or your finger if you are using a mobile phone.
 
-And here it is running on a HoloLens2:
+And here it is running in mixed reality on a HoloLens 2:
 
-![HL2](./.content/HL2workshop.gif)
+![HL2](./.content/HL2workshop.gif "Here's how my 3D experience looks in mixed reality on a HoloLens 2")
+    
+Well done if you made it to the end! Now that you've got started with mixed reality development, why not see what else you could build? We'll see you in the Metaverse! 😎
 
 ## Further Learning Resources
 
