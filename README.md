@@ -6,13 +6,13 @@
 
 There are a few steps that you'll need to complete before the workshop starts: 
 
+- [Install **Paint 3D**](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab). Paint 3D is a reimagined version of the classic Microsoft Paint, that lets you make 3D models that you can play with from all angles. This is only available on Windows 10 or 11, but if you can't use Paint 3D, don't worry, you can still complete the workshop by downloading a pre-created 3D model (we provide some links in the workshop notes below). 
+
+- [Install **Visual Studio Code**](https://code.visualstudio.com/download). Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. If you can't install Visual Studio Code, don't worry, the workshop can still be completed using a standard text editor.
+
 - [Create a free **GitHub** account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account), if you don't have one already. GitHub is a code hosting platform that lets you and others work together on projects from anywhere.
 
-- [Download **Visual Studio Code**](https://code.visualstudio.com/download). Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux.
-
 - Make sure that you are connected to the internet during the workshop.
-
-> Note: If you can't install Visual Studio Code, the workshop can still be completed using a standard text editor.
 
 ## Introduction
 
